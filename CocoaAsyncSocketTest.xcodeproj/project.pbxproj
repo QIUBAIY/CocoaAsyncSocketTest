@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181292391F711BCE0050D4CE /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 181292381F711BCE0050D4CE /* 7.jpeg */; };
+		181292841F7135CB0050D4CE /* ClientB.m in Sources */ = {isa = PBXBuildFile; fileRef = 181292831F7135CB0050D4CE /* ClientB.m */; };
 		181791BD1F70CE0C00D5416C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791BC1F70CE0C00D5416C /* main.m */; };
 		181791C01F70CE0C00D5416C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791BF1F70CE0C00D5416C /* AppDelegate.m */; };
 		181791C31F70CE0C00D5416C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791C21F70CE0C00D5416C /* ViewController.m */; };
@@ -16,6 +18,10 @@
 		181791CE1F70CE0C00D5416C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181791CC1F70CE0C00D5416C /* LaunchScreen.storyboard */; };
 		181791D91F70CE0C00D5416C /* CocoaAsyncSocketTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791D81F70CE0C00D5416C /* CocoaAsyncSocketTestTests.m */; };
 		181791E41F70CE0C00D5416C /* CocoaAsyncSocketTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791E31F70CE0C00D5416C /* CocoaAsyncSocketTestUITests.m */; };
+		181791F31F70CE2200D5416C /* Sever.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791F21F70CE2200D5416C /* Sever.m */; };
+		181791F61F70CE4300D5416C /* ClientA.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791F51F70CE4300D5416C /* ClientA.m */; };
+		181791FB1F70CE7000D5416C /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791F81F70CE7000D5416C /* GCDAsyncSocket.m */; };
+		181791FC1F70CE7000D5416C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 181791FA1F70CE7000D5416C /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181292381F711BCE0050D4CE /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		181292821F7135CB0050D4CE /* ClientB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientB.h; sourceTree = "<group>"; };
+		181292831F7135CB0050D4CE /* ClientB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientB.m; sourceTree = "<group>"; };
 		181791B81F70CE0C00D5416C /* CocoaAsyncSocketTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaAsyncSocketTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181791BC1F70CE0C00D5416C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181791BE1F70CE0C00D5416C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +62,14 @@
 		181791DF1F70CE0C00D5416C /* CocoaAsyncSocketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaAsyncSocketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181791E31F70CE0C00D5416C /* CocoaAsyncSocketTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaAsyncSocketTestUITests.m; sourceTree = "<group>"; };
 		181791E51F70CE0C00D5416C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181791F11F70CE2200D5416C /* Sever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sever.h; sourceTree = "<group>"; };
+		181791F21F70CE2200D5416C /* Sever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sever.m; sourceTree = "<group>"; };
+		181791F41F70CE4300D5416C /* ClientA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientA.h; sourceTree = "<group>"; };
+		181791F51F70CE4300D5416C /* ClientA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientA.m; sourceTree = "<group>"; };
+		181791F71F70CE7000D5416C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		181791F81F70CE7000D5416C /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		181791F91F70CE7000D5416C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		181791FA1F70CE7000D5416C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +120,18 @@
 		181791BA1F70CE0C00D5416C /* CocoaAsyncSocketTest */ = {
 			isa = PBXGroup;
 			children = (
+				18CF90131F7BB00600DFF749 /* GCD */,
+				181292381F711BCE0050D4CE /* 7.jpeg */,
 				181791BE1F70CE0C00D5416C /* AppDelegate.h */,
 				181791BF1F70CE0C00D5416C /* AppDelegate.m */,
 				181791C11F70CE0C00D5416C /* ViewController.h */,
 				181791C21F70CE0C00D5416C /* ViewController.m */,
+				181791F11F70CE2200D5416C /* Sever.h */,
+				181791F21F70CE2200D5416C /* Sever.m */,
+				181791F41F70CE4300D5416C /* ClientA.h */,
+				181791F51F70CE4300D5416C /* ClientA.m */,
+				181292821F7135CB0050D4CE /* ClientB.h */,
+				181292831F7135CB0050D4CE /* ClientB.m */,
 				181791C41F70CE0C00D5416C /* Main.storyboard */,
 				181791CA1F70CE0C00D5416C /* Assets.xcassets */,
 				181791CC1F70CE0C00D5416C /* LaunchScreen.storyboard */,
@@ -141,6 +166,17 @@
 				181791E51F70CE0C00D5416C /* Info.plist */,
 			);
 			path = CocoaAsyncSocketTestUITests;
+			sourceTree = "<group>";
+		};
+		18CF90131F7BB00600DFF749 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				181791F71F70CE7000D5416C /* GCDAsyncSocket.h */,
+				181791F81F70CE7000D5416C /* GCDAsyncSocket.m */,
+				181791F91F70CE7000D5416C /* GCDAsyncUdpSocket.h */,
+				181791FA1F70CE7000D5416C /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181791CE1F70CE0C00D5416C /* LaunchScreen.storyboard in Resources */,
+				181292391F711BCE0050D4CE /* 7.jpeg in Resources */,
 				181791CB1F70CE0C00D5416C /* Assets.xcassets in Resources */,
 				181791C61F70CE0C00D5416C /* Main.storyboard in Resources */,
 			);
@@ -282,6 +319,11 @@
 				181791C31F70CE0C00D5416C /* ViewController.m in Sources */,
 				181791C01F70CE0C00D5416C /* AppDelegate.m in Sources */,
 				181791BD1F70CE0C00D5416C /* main.m in Sources */,
+				181791F31F70CE2200D5416C /* Sever.m in Sources */,
+				181791FC1F70CE7000D5416C /* GCDAsyncUdpSocket.m in Sources */,
+				181791F61F70CE4300D5416C /* ClientA.m in Sources */,
+				181791FB1F70CE7000D5416C /* GCDAsyncSocket.m in Sources */,
+				181292841F7135CB0050D4CE /* ClientB.m in Sources */,
 				181791C91F70CE0C00D5416C /* CocoaAsyncSocketTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +564,7 @@
 				181791EA1F70CE0C00D5416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181791EB1F70CE0C00D5416C /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTestTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +573,7 @@
 				181791ED1F70CE0C00D5416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181791EE1F70CE0C00D5416C /* Build configuration list for PBXNativeTarget "CocoaAsyncSocketTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +582,7 @@
 				181791F01F70CE0C00D5416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

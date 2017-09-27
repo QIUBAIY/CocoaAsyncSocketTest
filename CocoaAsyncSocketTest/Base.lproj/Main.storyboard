@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,53 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="712-hn-7Ct">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yc8-DE-REo">
+                                <rect key="frame" x="0.0" y="225" width="375" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vaz-tZ-qFM">
+                                <rect key="frame" x="0.0" y="450" width="375" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yc8-DE-REo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="71V-0O-WFh"/>
+                            <constraint firstItem="712-hn-7Ct" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AXF-OE-tnO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vaz-tZ-qFM" secondAttribute="bottom" id="Lfe-0a-Oo8"/>
+                            <constraint firstItem="712-hn-7Ct" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QWx-ng-6XF"/>
+                            <constraint firstAttribute="trailing" secondItem="Vaz-tZ-qFM" secondAttribute="trailing" id="RE4-lG-kEw"/>
+                            <constraint firstItem="Vaz-tZ-qFM" firstAttribute="top" secondItem="Yc8-DE-REo" secondAttribute="bottom" constant="8" id="b46-C1-kzC"/>
+                            <constraint firstAttribute="trailing" secondItem="712-hn-7Ct" secondAttribute="trailing" id="fGR-i8-5BF"/>
+                            <constraint firstItem="Yc8-DE-REo" firstAttribute="top" secondItem="712-hn-7Ct" secondAttribute="bottom" constant="8" id="fN0-3S-XPk"/>
+                            <constraint firstItem="Yc8-DE-REo" firstAttribute="top" secondItem="712-hn-7Ct" secondAttribute="bottom" constant="8" id="i8z-cm-Ya3"/>
+                            <constraint firstItem="Yc8-DE-REo" firstAttribute="height" secondItem="712-hn-7Ct" secondAttribute="height" id="keK-S1-urI"/>
+                            <constraint firstAttribute="trailing" secondItem="Yc8-DE-REo" secondAttribute="trailing" id="n91-TC-wru"/>
+                            <constraint firstItem="Vaz-tZ-qFM" firstAttribute="height" secondItem="712-hn-7Ct" secondAttribute="height" id="umX-m1-qT0"/>
+                            <constraint firstItem="Vaz-tZ-qFM" firstAttribute="top" secondItem="Yc8-DE-REo" secondAttribute="bottom" constant="8" id="yAS-cq-lS9"/>
+                            <constraint firstItem="Vaz-tZ-qFM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="z1q-4t-v7c"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ClinetATextView" destination="712-hn-7Ct" id="P2U-CM-5XT"/>
+                        <outlet property="ClinetBTextView" destination="Vaz-tZ-qFM" id="znp-mS-APH"/>
+                        <outlet property="SeverTextView" destination="Yc8-DE-REo" id="ra9-vu-ud7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
